@@ -6,7 +6,7 @@ function App() {
   const ayah = Math.floor(Math.random() * 6236) + 1;
 
   const apiOne = `https://api.alquran.cloud/v1/ayah/${ayah}/editions/quran-uthmani,en.asad`;
-  const apiTwo = `http://api.alquran.cloud/v1/ayah/${ayah}/ar.alafasy`;
+  const apiTwo = `https://api.alquran.cloud/v1/ayah/${ayah}/ar.alafasy`;
 
   const [data, setData] = useState([]);
 
@@ -25,8 +25,6 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
-
-  console.log(data.data1);
 
   if (data.length === 0) {
     return <div>Loading...</div>;
