@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const ayah = Math.floor(Math.random() * 6236) + 1;
-  const url = `http://api.alquran.cloud/v1/ayah/${ayah}/editions/quran-uthmani,en.asad`;
+  const url = `https://api.alquran.cloud/v1/ayah/${ayah}/editions/quran-uthmani,en.asad`;
   const [data, setData] = useState([]);
 
   const getData = async () => {
