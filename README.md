@@ -8,3 +8,5 @@ I prepared this project for my brother. I gained a new skill in this study. :)
 To be honest, when I started this project, I didn't know that such a thing was possible. it was very good to know that.
 
 ![](https://github.com/imhalid/random-ayah/blob/master/screen.png?raw=true)
+
+## Api Source [https://alquran.cloud/api](https://alquran.cloud/api)
